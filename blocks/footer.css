@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__copyright {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  margin-top: 92px;
+}
+
+/*-----Responsive 768px-------*/
+
+@media screen and (max-width: 540px) {
+  .footer__copyright {
+    line-height: 14px;
+    max-width: 194px;
+    max-height: 14px;
+  }
+}
